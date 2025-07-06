@@ -43,7 +43,7 @@ java -jar SolitaireGame.jar
 ### Key Design
 
 - **OOP**: Each pile is a class that extends `CardPile` and implements specific rules.
-- **Mouse Interaction**: Clicking and dragging cards is handled via mouse listeners in `SolitaireJPanel`.
+- **Mouse Interaction**: Clicking cards is handled via mouse listeners in `SolitaireJPanel`.
 - **Redrawing**: `repaint()` is used to constantly update the card visuals after moves.
 - **Game State**: Internal logic manages valid moves, win conditions, and redraws dynamically.
 
